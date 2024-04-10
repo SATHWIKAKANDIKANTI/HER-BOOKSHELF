@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#nav{
+    color: white;
+    background-color:#000000;
+    background-size: cover;
+}
+.logo{
+    height: 40px;
+    width: 60px;
+}
+#link{
+    color: white;
+    font-size: 1rem;
+}
+.bag{
+    height: 20px;
+    width: 40px;
+    padding-left: 3%;
+}
+.bg-contaier{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    height: 100vh;
+    width: 80vw;
+}
+.hershelf{
+    height: 100px;
+    width: 150px;
+}
+.best-selling-books{
+    height: 250px;
+    width: 100vw;
+}
+.cards{
+    height: 100%;
+    width: 100vw;
+}
+.card-1{            
+    height: 100%;
+    width: 5%;
+    background-color: white;
+    border-radius:20px;
+    align-items: center;
+}
+.best-selling-heading{
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: #2d232e;
+    font-size: 1.5rem;
+}
+.card-image{
+    height: 60%;
+    width: 65%;
+}
+.card-writer{
+    color: #4e5259;
+    font-family:"Roboto";
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.card-book-name{
+    color: #333a42;
+    font-family: "Roboto";
+    font-size: 1rem;
+}
+.card-writer-name{
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    color: #444f43;
+}
+.card-price{
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #1cb83b;
+}
+.heading{
+    color: #474f49;
+    font-size: 2rem;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.image-nxt{
+    height: 50%;
+    width: 50%;
+}
+/* footer code goes here */
+.footer.box-container{
+    background:grey;
+}
+.footer .box-container{
+     
+     font-size: small;
+   width: 95%; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 2rem;
+}
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+.footer .box-container .box a{
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+    margin: 5%;
+}
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color: var(--grey);
+}
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+.footer .credit{
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--light-color);
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+}  
+.footer .credit span{
+    color: var(--grey);
+} 
+/* Footer section End */
+
+
+

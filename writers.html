@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HER BOOKSHELF</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</head>
+<style>
+    #nav {
+        color: white;
+        background-color: #000000;
+        background-size: cover;
+    }
+
+    .logo {
+        height: 40px;
+        width: 60px;
+    }
+
+    #link {
+        color: white;
+    }
+
+    .bag {
+        height: 20px;
+        width: 40px;
+        padding-left: 3%;
+    }
+
+    .flex-container {
+        display: flex;
+    }
+
+    .content {
+        background-color: gray;
+        height: 550px;
+        width: 750px;
+        margin-top: 70px;
+        margin-bottom: 100px;
+        margin-right: 100px;
+        margin-left: 80px;
+        padding-top: 50px;
+        padding-left: 10px;
+        box-shadow: 10px 10px #333333;
+
+
+    }
+
+    b {
+        font-size: 5em;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    p {
+        font-size: 30px;
+        font-style: italic;
+        color: black;
+    }
+
+    .books {
+        color: red;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    img {
+        height: 450px;
+        width: 350px;
+        border-radius: 20%;
+    }
+
+    .image {
+        margin-top: 100px;
+
+    }
+
+    .Award {
+        font-size: 20px;
+        font-family: cursive;
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="writers.js"></script>
+
+<body>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark"> <!--  bg-dark -->
+        <a class="navbar-brand" href="#"><img class="logo"
+                src="SheHacksLogo.jpeg.jpg" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse mr-3" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active mr-3">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a id="link" class="nav-link" href="explore.html">Explore</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a id="link" class="nav-link" href="#">Writers</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a id="link" class="nav-link" href="parenting/login.html">Login</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a id="link" class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a id="link" class="nav-link bag" href="#"><i class="bi bi-bag-fill"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="flex-container">
+        <div class="content">
+            <b>Charlatte Bronte</b>
+            <p>“I am no bird;<br /> and no net ensnares me; <br /> I am a free human being with an independent will.”
+            </p>
+            <div class="books" id="cb">Buy Bronte's Books..</div>
+        </div>
+        <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Charlotte_Bront%C3%AB.jpg" /><br />
+            <div class="Award">All About Romance Reader Award in<br /> the historical category.</div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="content">
+            <b>Tonni Morrison</b>
+            <p>“The future was sunset; the past was something to leave behind. And if it didn't stay behind, well, you
+                might have to stomp it out.”</p>
+            <div class="books" id="tm">Buy Tonni's Books..</div>
+        </div>
+        <div class="image">
+            <img
+                src="https://static01.nyt.com/images/2019/08/06/books/06Books-Appraisal/06Books-Appraisal-articleLarge.jpg?quality=75&auto=webp&disable=upscale" /><br />
+            <div class="Award">Nobel Prize for Literature,1993.</div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="content">
+            <b>Kiran Desai</b>
+            <p>“When you build on lies, you build strong and solid. It was the truth that undid you.”</p>
+            <div class="books" id="kd">Buy Kiran's Books..</div>
+        </div>
+        <div class="image">
+            <img src="https://cdn.britannica.com/09/172309-050-A88D26DA/Kiran-Desai.jpg" /><br />
+            <div class="Award">Booker Prize,2006.</div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="content">
+            <b>Arundhati Roy</b>
+            <p>“And the air was full of Thoughts and Things to Say. But at times like these, only the Small Things are
+                ever said. Big Things lurk unsaid inside.”</p>
+            <div class="books" id="ar">Buy Arundhati's Books..</div>
+        </div>
+        <div class="image">
+            <img
+                src="https://images.squarespace-cdn.com/content/v1/60b530f76344a86a0e0f9431/1677527222765-3EFHKKFRXNMNDUI17ZZ4/Roy+700x700.jpg" /><br />
+            <div class="Award"> Norman Mailer Prize for Distinguished Writing ,2011.</div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="content">
+            <b>Sudha Murthy</b>
+            <p>"Life is an exam where the syllabus is unknown and question papers are not set. Nor are there model
+                answer papers"</p>
+            <div class="books" id="sm">Buy Sudha's Books..</div>
+        </div>
+        <div class="image">
+            <img src="https://www.smifslimited.com/wp-content/uploads/2023/09/sudha-murty.jpg" /><br />
+            <div class="Award">Padma Shri,2006.</div>
+        </div>
+    </div>
+</body>
+
+</html>
